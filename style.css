@@ -17,7 +17,7 @@
       #000000 10px,
       #000000 20px
     );
-  transition: all 0.5s ease-in-out;
+  transition: all 2s ease-in-out;
   background-image: url("day-night.jpeg");
   background-position: center; 
 }
@@ -42,3 +42,22 @@
   background: linear-gradient(to bottom, black 50%, transparent 50%);
 
 }
+
+#slider{
+  direction: rtl
+}
+
+button {
+  background-image: url("wood-texture.jpg");
+  background-size: cover;
+  border: 2px solid #8B4513;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin:2px;
+}
+
+ 
