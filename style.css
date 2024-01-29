@@ -7,8 +7,8 @@
 }
 #day_circle{
   position: relative;
-  width:200px;
-  height:200px;
+  width:205px;
+  height:205px;
   border-radius: 50%;
   background: repeating-linear-gradient(
       45deg,
@@ -20,13 +20,24 @@
   transition: all 2s ease-in-out;
   background-image: url("day-night.jpeg");
   background-position: center; 
+  background-size:cover;
 }
-  
+
+#cover{
+  position: absolute;
+  width:240px;
+  height:240px;
+  border-radius: 50%;
+  background-image: url("Guage.png");
+  background-position: center; 
+  background-size: cover;
+}
 
 #minuet_circle{
   position: absolute;
-  width:50px;
-  height:50px;
+  top:109px;
+  width:70px;
+  height:70px;
   border-radius: 50%;
   background-image: url("dial.jpg");
   background-size: cover;
