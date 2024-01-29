@@ -1,0 +1,44 @@
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#day_circle{
+  position: relative;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  background: repeating-linear-gradient(
+      45deg,
+      #ffffff,
+      #ffffff 10px,
+      #000000 10px,
+      #000000 20px
+    );
+  transition: all 0.5s ease-in-out;
+  background-image: url("day-night.jpeg");
+  background-position: center; 
+}
+  
+
+#minuet_circle{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-image: url("dial.jpg");
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+#pointer{
+  width: 2px;
+  height: 100%;
+  background: black;
+  transition: all 0.5s ease-in-out;
+  margin:auto;
+  background: linear-gradient(to bottom, black 50%, transparent 50%);
+
+}
